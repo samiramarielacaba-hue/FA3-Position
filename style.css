@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+}
+
+#wrap {
+    max-width: 700px;
+    margin: 20px auto 80px auto; 
+    padding: 20px;
+    background: hsl(201, 100%, 92%);         
+    text-align: center;
+    border: 2px solid #e3f1f5;     
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.artist-img {
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+}
+
+.song-header h3 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.song-header h5 {
+    margin: 5px 0 20px;
+    color: #444;
+}
+
+main p {
+    line-height: 1.6;
+    margin: 15px 0;
+    white-space: pre-line;
+}
+
+#songlink {
+    position: fixed;       
+    bottom: 10px;          
+    left: 10px;            
+    text-align: center;    
+    font-size: 12px;
+    background: #ffffff;     
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 8px;   
+    width: 140px;         
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2); 
+}
+
+#songlink img {
+    display: block;
+    margin: 0 auto 8px auto;
+}
+
+#songlink a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+#songlink a:hover {
+    text-decoration: underline;
+}
